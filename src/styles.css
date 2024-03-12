@@ -1,0 +1,24 @@
+body {
+  font-family: sans-serif;
+  background: #f97b62;
+}
+
+header {
+  font-weight: bold;
+}
+
+header,
+.row {
+  display: flex;
+  justify-content: space-between;
+  text-align: left;
+  align-items: center;
+}
+
+.col {
+  flex: 0 1 200px;
+}
+
+button {
+  cursor: pointer;
+}
